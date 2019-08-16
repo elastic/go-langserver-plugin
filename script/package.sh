@@ -21,7 +21,7 @@ else
     exit 2
 fi
 
-docker build --rm -f ".ci/Dockerfile" --build-arg CI_USER_UID=$(id -u) -t code-lsp-go-langserver-package:latest .ci
+docker build --rm -f "./Dockerfile" --build-arg CI_USER_UID=$(id -u) -t code-lsp-go-langserver-package:latest .
 
 KIBANA_MOUNT_ARGUMENT=""
 if [[ -n $KIBANA_MOUNT ]]; then
