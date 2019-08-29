@@ -1,6 +1,6 @@
 {
   "name": "go-langserver",
-  "version": "8.0.0-SNAPSHOT",
+  "version": "7.4.0-SNAPSHOT",
   "description": "Code Plugin Go Language Server",
   "main": "index.js",
   "kibana": {
