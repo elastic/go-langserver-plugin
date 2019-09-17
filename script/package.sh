@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-GO_LANGSERVER_VERSION="v0.1.6"
+GO_LANGSERVER_VERSION="v0.1.7"
 
 if [[ $# -eq 0 ]]; then
     echo "deploy snapshot package.."
