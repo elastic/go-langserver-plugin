@@ -5,7 +5,7 @@ GO_LANGSERVER_VERSION="v0.1.8"
 
 if [[ $# -eq 0 ]]; then
     echo "deploy snapshot package.."
-    KIBANA_VERSION=7.5.0
+    KIBANA_VERSION=7.6.0
     DESTINATION=snapshot/
 
 elif [[ $# -eq 2 ]]; then
